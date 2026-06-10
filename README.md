@@ -1,19 +1,29 @@
-# Kastane Coffee Premium Demo
+# Kastane Coffee — Agency Demo
 
-Versiune premium statică, fără framework.
+Versiune demo îmbunătățită:
+- font schimbat pe Playfair Display + Inter;
+- dark/light mode;
+- pagină separată Our Coffee;
+- secțiune Rarities;
+- recenzii demo;
+- statistici animate;
+- efecte parallax subtile;
+- Instagram slots;
+- Google Maps;
+- favicon.
 
 ## Fișiere de urcat în GitHub
 - index.html
-- about.html
+- coffee.html
 - styles.css
 - script.js
 - favicon.svg
+- README.md
 
-## Update pe Vercel
-În repository-ul GitHub existent, încarci aceste fișiere peste cele vechi.
-Vercel redeployează automat.
-
-## Observații
-- Pozele sunt sloturi premium. Înlocuiește-le cu poze reale din local.
-- Programul trebuie confirmat cu proprietarul: sursele publice afișează variante diferite.
-- Meniul are prețuri placeholder.
+## Important
+Unele texte sunt demo/inventate pentru prezentare.
+Înainte de folosire comercială:
+- confirmă programul;
+- confirmă meniul/prețurile;
+- cere acord pentru folosirea datelor și pozelor;
+- înlocuiește sloturile cu poze reale.
