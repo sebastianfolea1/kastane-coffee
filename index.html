@@ -3,243 +3,199 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kastane Coffee — Cafenea de specialitate în Târgoviște</title>
-  <meta name="description" content="Kastane Coffee, cafenea de specialitate în Târgoviște. Espresso, filter coffee, cold brew, opțiuni decaf, Wi‑Fi, terasă și atmosferă relaxată." />
-  <meta name="theme-color" content="#120d08" />
-  <meta property="og:title" content="Kastane Coffee — Cafenea de specialitate în Târgoviște" />
-  <meta property="og:description" content="Cafea de specialitate, atmosferă caldă și un loc potrivit pentru pauze, lucru sau conversații în Târgoviște." />
+  <title>Kastane Coffee — Specialty Coffee în Târgoviște</title>
+  <meta name="description" content="Kastane Coffee, cafenea de specialitate în Târgoviște. Cafea bună, atmosferă liniștită, terasă, interior minimalist și recenzii excelente." />
+  <meta name="theme-color" content="#f6efe5" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <div class="grain" aria-hidden="true"></div>
-
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Kastane Coffee">
+    <a class="brand" href="#top" aria-label="Kastane Coffee">
       <span class="brand-mark">K</span>
-      <span class="brand-text">Kastane Coffee</span>
+      <span>Kastane Coffee</span>
     </a>
 
-    <nav class="nav" aria-label="Navigație principală">
+    <nav class="nav">
+      <a href="#atmosphere">Atmosferă</a>
       <a href="#coffee">Cafea</a>
-      <a href="#rarities">Selecții</a>
-      <a href="#reviews">Experiență</a>
-      <a href="coffee.html">Our Coffee</a>
+      <a href="#reviews">Recenzii</a>
       <a href="#visit">Contact</a>
     </nav>
 
-    <button class="theme-toggle" type="button" aria-label="Schimbă tema">☀️</button>
-    <a class="header-cta" href="tel:+40751110791">Sună acum</a>
+    <a class="header-cta" href="tel:+40751110791">Sună</a>
   </header>
 
-  <main>
-    <section class="hero hero-premium">
+  <main id="top">
+    <section class="hero">
       <div class="hero-copy reveal">
-        <p class="eyebrow">cafenea de specialitate · târgoviște</p>
-        <h1>Mai mult decât o cafea luată în trecere.</h1>
+        <p class="eyebrow">specialty coffee · târgoviște</p>
+        <h1>The most authentic specialty coffee experience in Târgoviște.</h1>
         <p class="lead">
-          Kastane Coffee este un loc pentru cafea preparată atent, pauze liniștite și întâlniri simple,
-          într-un spațiu cald, modern și ușor de recunoscut în oraș.
+          Cafea de specialitate, atmosferă liniștită și un spațiu creat pentru momente care merită savurate.
         </p>
 
         <div class="hero-actions">
-          <a class="button primary" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer">Urmărește pe Instagram</a>
+          <a class="button primary" href="#coffee">Vezi cafeaua</a>
           <a class="button ghost" href="#visit">Vezi locația</a>
         </div>
 
-        <div class="micro-row">
-          <span>espresso bar</span>
-          <span>filter coffee</span>
-          <span>cold brew</span>
-          <span>atmosferă relaxată</span>
+        <div class="proof-row">
+          <span>★★★★★ 4.9 rating</span>
+          <span>Wi‑Fi</span>
+          <span>Terasă</span>
+          <span>Dog friendly</span>
         </div>
       </div>
 
-      <div class="hero-visual reveal delay-1">
-        <div class="hero-photo hero-photo-main photo-slot">
-          <span>imagine principală local</span>
-        </div>
-        <div class="hero-photo hero-photo-small photo-slot">
-          <span>detaliu cafea / bar</span>
-        </div>
-        <div class="hero-badge">
-          <span class="badge-big counter" data-target="4.9">0</span>
-          <span>apreciere ridicată în comunitate</span>
-        </div>
+      <div class="hero-image reveal delay">
+        <img src="images/hero-iced-coffee.png" alt="Iced coffee Kastane Coffee" />
       </div>
     </section>
 
-    <section class="stats reveal" aria-label="Puncte forte">
-      <article><strong class="counter" data-target="4.9">0</strong><span>rating orientativ</span></article>
-      <article><strong>Wi‑Fi</strong><span>pentru lucru</span></article>
-      <article><strong>Fresh</strong><span>cafea preparată atent</span></article>
-      <article><strong>Local</strong><span>în inima orașului</span></article>
-    </section>
-
-    <section class="ticker" aria-label="Facilități">
-      <div class="ticker-track">
-        <span>Free Wi‑Fi</span><span>•</span><span>Laptop friendly</span><span>•</span>
-        <span>Kids friendly</span><span>•</span><span>Dog friendly</span><span>•</span>
-        <span>Outdoor seating</span><span>•</span><span>Card payment</span><span>•</span>
-        <span>Plant-based milk</span><span>•</span><span>Decaf</span><span>•</span>
+    <section class="split" id="atmosphere">
+      <div class="split-image reveal">
+        <img src="images/terrace.png" alt="Terasa Kastane Coffee" />
       </div>
-    </section>
 
-    <section class="section two-col" id="coffee">
-      <div class="section-kicker reveal">Cafea</div>
-      <div class="section-content reveal">
-        <h2>Un meniu clar, construit în jurul cafelei bune.</h2>
+      <div class="split-copy reveal delay">
+        <p class="eyebrow">atmosfera kastane</p>
+        <h2>Un loc mic, luminos și calm, unde cafeaua chiar pare parte din zi.</h2>
         <p>
-          De la espresso și cappuccino până la filter coffee și băuturi reci, meniul poate fi prezentat
-          simplu, elegant și ușor de actualizat, fără să încarce inutil experiența vizitatorului.
+          Kastane nu arată ca o cafenea generică. Terasa intimă, interiorul minimalist și detaliile calde
+          creează senzația unui loc descoperit, nu doar vizitat.
+        </p>
+
+        <div class="feature-list">
+          <span>specialty coffee</span>
+          <span>outdoor seating</span>
+          <span>laptop friendly</span>
+          <span>card payment</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">galerie</p>
+        <h2>Detalii care vând experiența înainte de prima vizită.</h2>
+      </div>
+
+      <div class="gallery reveal">
+        <article class="gallery-card tall">
+          <img src="images/hero-iced-coffee.png" alt="Băutură rece la Kastane Coffee" />
+          <div><h3>Iced coffee</h3><p>interior cald, logo recognoscibil</p></div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/latte-croissant.png" alt="Latte art și croissante" />
+          <div><h3>Latte & croissant</h3><p>ritual de dimineață</p></div>
+        </article>
+
+        <article class="gallery-card">
+          <img src="images/table-drinks.png" alt="Cafea și băuturi pe masă" />
+          <div><h3>Table moments</h3><p>cafea, conversații, pauză</p></div>
+        </article>
+
+        <article class="gallery-card wide">
+          <img src="images/terrace.png" alt="Terasa exterioară Kastane Coffee" />
+          <div><h3>Terasa Kastane</h3><p>liniște, verdeață și lumină naturală</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="coffee-section" id="coffee">
+      <div class="coffee-copy reveal">
+        <p class="eyebrow">cafea</p>
+        <h2>Un meniu scurt, clar și potrivit pentru o cafenea de specialitate.</h2>
+        <p>
+          Site-ul poate prezenta meniul complet când este confirmat de local. Pentru vizitator, cele mai importante
+          repere sunt simple: espresso, cappuccino, flat white, filter coffee, cold brew și opțiuni decaf.
         </p>
       </div>
-    </section>
 
-    <section class="menu-board reveal">
-      <div class="menu-category">
-        <div class="menu-title">
+      <div class="menu-grid reveal delay">
+        <article>
+          <span>01</span>
           <h3>Espresso bar</h3>
-          <span>clasice zilnice</span>
-        </div>
-        <article><b>Espresso</b><span>intens</span></article>
-        <article><b>Americano</b><span>echilibrat</span></article>
-        <article><b>Cappuccino</b><span>cremos</span></article>
-        <article><b>Flat white</b><span>fin</span></article>
-      </div>
-
-      <div class="menu-category highlighted">
-        <div class="menu-title">
-          <h3>Slow coffee</h3>
-          <span>gust curat</span>
-        </div>
-        <article><b>Filter coffee</b><span>aromatic</span></article>
-        <article><b>Cold brew / drip</b><span>rece</span></article>
-        <article><b>Decaf coffee</b><span>lejer</span></article>
-        <article><b>Plant-based milk</b><span>opțional</span></article>
-      </div>
-
-      <div class="menu-category">
-        <div class="menu-title">
-          <h3>Signature</h3>
-          <span>sezonier</span>
-        </div>
-        <article><b>Băuturi speciale</b><span>rotative</span></article>
-        <article><b>Cold drinks</b><span>fresh</span></article>
-        <article><b>Seasonal latte</b><span>cald</span></article>
-        <article><b>Sweet pairing</b><span>selectat</span></article>
-      </div>
-    </section>
-
-    <section class="rarities" id="rarities">
-      <div class="rarities-copy reveal">
-        <p class="eyebrow">selecții speciale</p>
-        <h2>Pentru clienții care vor să descopere cafeaua, nu doar să o comande.</h2>
-        <p>
-          O secțiune dedicată selecțiilor speciale poziționează Kastane Coffee ca un loc cu identitate,
-          nu doar ca o cafenea obișnuită. Originile pot fi actualizate în funcție de cafeaua disponibilă.
-        </p>
-      </div>
-
-      <div class="rarities-grid reveal delay-1">
-        <article>
-          <span>profil floral</span>
-          <h3>Note delicate, gust luminos</h3>
-          <p>Potrivit pentru filter coffee și pentru clienții curioși să încerce arome mai fine.</p>
+          <p>Espresso, americano, cappuccino, flat white și băuturi cu lapte.</p>
         </article>
         <article>
-          <span>profil echilibrat</span>
-          <h3>Caramel, fructe roșii, corp rotund</h3>
-          <p>O alegere ușor de recomandat pentru cine vrea ceva special, dar prietenos.</p>
+          <span>02</span>
+          <h3>Filter coffee</h3>
+          <p>O opțiune pentru cei care vor gust curat, arome clare și preparare lentă.</p>
         </article>
         <article>
-          <span>profil intens</span>
-          <h3>Aciditate clară, final lung</h3>
-          <p>Un profil expresiv, pentru cei care caută o cafea memorabilă.</p>
+          <span>03</span>
+          <h3>Cold drinks</h3>
+          <p>Cold brew, iced coffee și băuturi reci pentru zile calde.</p>
         </article>
-      </div>
-    </section>
-
-    <section class="showcase" id="experience">
-      <div class="showcase-copy reveal">
-        <p class="eyebrow">Experiență</p>
-        <h2>Un site bun trebuie să transmită atmosfera localului înainte ca omul să ajungă acolo.</h2>
-        <p>
-          De aceea designul pune accent pe imagini mari, culori calde, spațiu liber și texte scurte.
-          Vizitatorul trebuie să simtă din primele secunde că locul este curat, atent și primitor.
-        </p>
-        <a class="text-link" href="coffee.html">Descoperă cafeaua</a>
-      </div>
-
-      <div class="masonry reveal delay-1">
-        <div class="photo-slot tall parallax"><span>exterior / intrare</span></div>
-        <div class="photo-slot parallax"><span>băutură servită</span></div>
-        <div class="photo-slot parallax"><span>interior</span></div>
-        <div class="photo-slot wide parallax"><span>bar / detalii</span></div>
       </div>
     </section>
 
     <section class="reviews" id="reviews">
       <div class="section-head reveal">
-        <p class="eyebrow">Experiență client</p>
-        <h2>Mesajele care transformă o vizită într-un obicei.</h2>
+        <p class="eyebrow">recenzii reale</p>
+        <h2>Ce spun oamenii despre Kastane.</h2>
       </div>
 
       <div class="review-grid reveal">
         <figure>
-          <div>★★★★★</div>
-          <blockquote>„Un loc cald, curat și liniștit, perfect pentru o cafea bună în oraș.”</blockquote>
-          <figcaption>— experiență evidențiată pe site</figcaption>
+          <div class="stars">★★★★★</div>
+          <blockquote>„Cel mai frumos loc unde ai putea să-ți servești cafeaua în Târgoviște.”</blockquote>
+          <figcaption>— Andreea Vlad</figcaption>
         </figure>
-        <figure>
-          <div>★★★★★</div>
-          <blockquote>„Cafea atent preparată și atmosferă potrivită pentru lucru sau o discuție scurtă.”</blockquote>
-          <figcaption>— mesaj pentru clienți noi</figcaption>
-        </figure>
-        <figure>
-          <div>★★★★★</div>
-          <blockquote>„Genul de cafenea pe care o recomanzi mai departe după prima vizită.”</blockquote>
-          <figcaption>— poziționare de brand</figcaption>
-        </figure>
-      </div>
-    </section>
 
-    <section class="instagram-block reveal">
-      <div>
-        <p class="eyebrow">Comunitate</p>
-        <h2>Instagramul poate rămâne locul viu al brandului.</h2>
-        <p>
-          Site-ul poate trimite elegant către Instagram, unde clienții văd noutăți, băuturi de sezon,
-          program actualizat și imagini recente din local.
-        </p>
+        <figure>
+          <div class="stars">★★★★★</div>
+          <blockquote>„Cea mai autentică cafenea din Târgoviște. Cafea de specialitate, atmosferă foarte plăcută.”</blockquote>
+          <figcaption>— Silviu Dorobanțu</figcaption>
+        </figure>
+
+        <figure>
+          <div class="stars">★★★★★</div>
+          <blockquote>„One of the best specialty coffee I’ve tasted lately.”</blockquote>
+          <figcaption>— Radu Burileanu</figcaption>
+        </figure>
+
+        <figure>
+          <div class="stars">★★★★★</div>
+          <blockquote>„Excellent coffee blend, very friendly staff and peaceful atmosphere.”</blockquote>
+          <figcaption>— Daniela Bibi</figcaption>
+        </figure>
       </div>
-      <div class="insta-grid">
-        <a class="photo-slot" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer"><span>noutăți</span></a>
-        <a class="photo-slot" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer"><span>băuturi</span></a>
-        <a class="photo-slot" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer"><span>atmosferă</span></a>
-        <a class="photo-slot" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer"><span>comunitate</span></a>
-      </div>
+
+      <details class="review-proof">
+        <summary>Vezi capturi cu recenziile folosite</summary>
+        <div class="proof-gallery">
+          <img src="images/review-andreea.png" alt="Recenzie Andreea Vlad Google Maps" />
+          <img src="images/review-silviu.png" alt="Recenzie Silviu Dorobanțu Google Maps" />
+          <img src="images/review-radu.png" alt="Recenzie Radu Burileanu Google Maps" />
+          <img src="images/review-daniela.png" alt="Recenzie Daniela Bibi Google Maps" />
+        </div>
+      </details>
     </section>
 
     <section class="visit" id="visit">
       <div class="visit-copy reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Găsește Kastane Coffee pe Bd. Regele Carol I 21A.</h2>
+        <p class="eyebrow">contact</p>
+        <h2>Bd. Regele Carol I 21A, Târgoviște</h2>
         <p>
-          Pentru detalii rapide, clienții pot suna direct sau pot verifica noutățile pe Instagram.
-          Programul final se afișează după confirmarea cu echipa localului.
+          Pentru program actualizat, noutăți și selecții de cafea, cel mai simplu este ca vizitatorul
+          să verifice Instagramul sau să sune direct.
         </p>
-        <div class="visit-actions">
-          <a class="button primary" href="tel:+40751110791">Sună acum</a>
+
+        <div class="hero-actions">
+          <a class="button primary" href="tel:+40751110791">0751 110 791</a>
           <a class="button ghost" href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer">Instagram</a>
         </div>
       </div>
 
-      <div class="map-card reveal delay-1">
+      <div class="map-card reveal delay">
         <iframe
           title="Hartă Kastane Coffee"
           loading="lazy"
@@ -251,18 +207,11 @@
   </main>
 
   <footer class="footer">
-    <div>
-      <a class="brand footer-brand" href="index.html">
-        <span class="brand-mark">K</span>
-        <span>Kastane Coffee</span>
-      </a>
-      <p>Cafea de specialitate, atmosferă caldă și pauze mai bune în Târgoviște.</p>
-    </div>
-    <div class="footer-links">
-      <a href="coffee.html">Our Coffee</a>
-      <a href="https://www.instagram.com/kastanecoffee/" target="_blank" rel="noreferrer">Instagram</a>
-      <a href="tel:+40751110791">Telefon</a>
-    </div>
+    <a class="brand" href="#top">
+      <span class="brand-mark">K</span>
+      <span>Kastane Coffee</span>
+    </a>
+    <p>Cafea de specialitate, atmosferă calmă și experiență locală autentică în Târgoviște.</p>
   </footer>
 
   <script src="script.js"></script>

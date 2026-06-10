@@ -1,22 +1,18 @@
-# Kastane Coffee — Client Presentation Version
+# Kastane Coffee — Final with PNGs
 
-Versiune cu texte reformulate pentru prezentare către patron:
-- fără formulări de tip „demo” în zona vizibilă a site-ului;
-- ton comercial, elegant și credibil;
-- fără prețuri inventate;
-- fără origini de cafea prezentate ca certe;
-- sloturi vizuale pregătite pentru poze reale.
+Această versiune folosește PNG-urile trimise în conversație ca imagini reale în site.
 
-## Fișiere de urcat
+## Fișiere
 - index.html
-- coffee.html
 - styles.css
 - script.js
 - favicon.svg
-- README.md
+- images/
 
-## Înainte de folosire reală
-- confirmă programul;
-- confirmă meniul/prețurile;
-- înlocuiește sloturile cu poze reale;
-- cere acordul proprietarului pentru publicarea finală.
+## Cum urci
+În GitHub, încarcă toate fișierele și folderul images.
+Vercel redeployează automat.
+
+## Observație
+Imaginile folosite sunt screenshot-uri din Google Maps, deci CSS-ul le decupează vizual ca să arate cât mai bine.
+Pentru o variantă comercială finală, ideal sunt fotografiile originale.
