@@ -1,18 +1,13 @@
-# Kastane Coffee — Agency Demo
+# Kastane Coffee — Client Presentation Version
 
-Versiune demo îmbunătățită:
-- font schimbat pe Playfair Display + Inter;
-- dark/light mode;
-- pagină separată Our Coffee;
-- secțiune Rarities;
-- recenzii demo;
-- statistici animate;
-- efecte parallax subtile;
-- Instagram slots;
-- Google Maps;
-- favicon.
+Versiune cu texte reformulate pentru prezentare către patron:
+- fără formulări de tip „demo” în zona vizibilă a site-ului;
+- ton comercial, elegant și credibil;
+- fără prețuri inventate;
+- fără origini de cafea prezentate ca certe;
+- sloturi vizuale pregătite pentru poze reale.
 
-## Fișiere de urcat în GitHub
+## Fișiere de urcat
 - index.html
 - coffee.html
 - styles.css
@@ -20,10 +15,8 @@ Versiune demo îmbunătățită:
 - favicon.svg
 - README.md
 
-## Important
-Unele texte sunt demo/inventate pentru prezentare.
-Înainte de folosire comercială:
+## Înainte de folosire reală
 - confirmă programul;
 - confirmă meniul/prețurile;
-- cere acord pentru folosirea datelor și pozelor;
-- înlocuiește sloturile cu poze reale.
+- înlocuiește sloturile cu poze reale;
+- cere acordul proprietarului pentru publicarea finală.
