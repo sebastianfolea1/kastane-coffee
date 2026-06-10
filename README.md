@@ -1,24 +1,19 @@
-# Kastane Coffee Demo Site
+# Kastane Coffee Premium Demo
 
-Site static de prezentare pentru Kastane Coffee.
+Versiune premium statică, fără framework.
 
-## Fișiere
-- `index.html`
-- `styles.css`
-- `script.js`
+## Fișiere de urcat în GitHub
+- index.html
+- about.html
+- styles.css
+- script.js
+- favicon.svg
 
-## Cum îl vezi rapid
-Deschide `index.html` în browser.
+## Update pe Vercel
+În repository-ul GitHub existent, încarci aceste fișiere peste cele vechi.
+Vercel redeployează automat.
 
-## Cum îl urci pe Vercel
-1. Creezi un repository pe GitHub.
-2. Încarci cele 3 fișiere.
-3. Intri pe Vercel → Add New Project.
-4. Alegi repository-ul.
-5. Deploy.
-
-## De verificat înainte de prezentare clientului
-- Programul exact.
-- Meniul/prețurile.
-- Poze reale.
-- Confirmarea că firma acceptă folosirea numelui și datelor publice într-un demo.
+## Observații
+- Pozele sunt sloturi premium. Înlocuiește-le cu poze reale din local.
+- Programul trebuie confirmat cu proprietarul: sursele publice afișează variante diferite.
+- Meniul are prețuri placeholder.
